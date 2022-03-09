@@ -1,5 +1,14 @@
-body {
+:root{
+  --brand: #0089ff;
+  --background: #ebeef5;
+}
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{
   margin: 0;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +19,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+button{
+  background: var(--brand);
+  border: none;
+  padding: .4rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease .3s all;
+  text-transform: capitalize;
+  /* box-shadow: var(--brand) 0px 12px 28px -5px; */
+
+
+}
+button:hover{
+  filter: brightness(1.2);
+}
+button:active{
+  transform: scaleX(.98);
+}
+.heading{
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 2.2rem;
+  transition: all ease .4s;
+  animation: heading .4s ease forwards .15s;
+  animation-fill-mode: both;
+}
+.delay-1{
+  animation-delay: .15s;
+}
+.delay-2{
+  animation-delay: .5s;
+}
+.text{
+  color: #4d4d4d;
+}
+.highlight{
+  color: var(--brand);
+}
+@keyframes heading {
+  0%{
+     letter-spacing: 10px;
+     opacity: 0;
+     transform: translateY(-5px);
+     transform: scale(.6)
+  };
+  20%{
+     opacity: 0;
+  }
+  100%{
+     letter-spacing: 0;
+     opacity: 1;
+     transform: translateY(0);
+     transform: scale(1)
+  };
+}
+
+@keyframes zoom {
+  0%{
+    transform: translate3d(100px,0,0) scale(.6);
+    opacity: 0;
+  }
+  100%{
+    transform: translateZ(0) scale(1);
+    opacity: 1;
+  }
 }
