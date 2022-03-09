@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# React design patterns - From basic to advanced (~3hrs: Videos and Excercises)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Lessons here on LinkedIn Learning](https://www.linkedin.com/learning/react-design-patterns/controlled-forms?autoplay=true&u=42267225)
 
-## Available Scripts
+Instructor: [Shaun Wassell](https://www.linkedin.com/learning/instructors/shaun-wassell?u=42267225)
 
-In the project directory, you can run:
+![picture alt](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.p30jpcINu93_CvtF5YttRwHaDt%26pid%3DApi&f=1)
 
-### `npm start`
+## Course Description:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you’ve learned the basics of React and have worked on many React applications, chances are you’ve run into some recurring problems and situations, like creating reusable layouts or working with forms. If you’ve been on the hunt for solutions to common problems, look no further than this course with Shaun Wassell, where he covers many of the most useful design patterns—effective and repeatable solutions to common application development challenges. This course consists of several sections, each of which will cover a group of React design patterns, ranging from preferred syntax for specific tasks to how to arrange components in the most effective way. Among the topics Shaun covers are composition, higher-order components, state hoisting, controlled vs. uncontrolled components, and many other patterns that help a React app develop into a well-organized codebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Skills learned:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-  Software Design Patterns
+-  React.js
